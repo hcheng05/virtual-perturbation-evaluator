@@ -110,19 +110,6 @@ uv run python scripts/evaluate_official.py `
 Replace `ground_truth.h5ad` with the held-out validation or benchmark file that
 contains the true post-perturbation cells.
 
-## Smoke Test
-
-After installing dependencies, run the lightweight synthetic check:
-
-```powershell
-uv run python scripts/smoke_test.py
-```
-
-To also instantiate tiny Transformer and Mamba models:
-
-```powershell
-uv run python scripts/smoke_test.py --include-sequence-models
-```
 
 ## Suggested Final Report Outputs
 
